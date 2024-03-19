@@ -1,0 +1,33 @@
+#container input, #container button {
+  border: none;
+  font-weight: bold;
+}
+
+body {
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+}
+
+#flex {
+  height: 100vh;
+}
+
+#container {
+  width: 20%;
+}
+#container button {
+  height: 50px;
+  background-color: rgb(65, 63, 65);
+  color: white;
+}
+#container input {
+  height: 80px;
+}
+#container input:focus {
+  outline: none;
+}
+
+#top {
+  height: 10px;
+  background-color: rgb(65, 63, 65);
+}/*# sourceMappingURL=index.css.map */

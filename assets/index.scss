@@ -1,0 +1,46 @@
+@mixin bg{
+    background-color:  rgb(65, 63, 65);
+}
+
+%border{
+    border:none;
+    font-weight: bold;
+}
+body{
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+}
+
+
+#flex{
+    height: 100vh;
+}
+
+#container{
+    
+    width: 20%;
+    button{
+        height: 50px;
+       @extend %border;
+       @include bg;
+       color: white;
+       
+    }
+    input{
+
+        height: 80px;
+        &:focus{
+            outline: none;
+        }
+        @extend %border;
+        
+        
+    }
+
+
+}
+#top{
+    height: 10px;
+    @include bg;
+}
+   
